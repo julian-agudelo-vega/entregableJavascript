@@ -171,3 +171,31 @@ footer{
 .boton:hover{
     background:#f30f54;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+.contenedor-inicio{
+
+    width:90%;
+
+    margin:50px auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    flex:1;
+}
